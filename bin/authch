@@ -1,0 +1,2 @@
+#!/bin/sh
+shuf -n 1 ~/Documents/gg.txt > ~/Documents/auth.txt && sed 's/:/\n/' -i ~/Documents/auth.txt 

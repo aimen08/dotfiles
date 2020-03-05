@@ -1,0 +1,7 @@
+#!/bin/sh
+wal -i ~/Pictures/wallpapers/ --vte
+cd ~/.telegram-palette-gen && ./telegram-palette-gen --wal
+cd ~/Public/Zathura-Pywal && ./install.sh
+oomox-gnome-colors-icons-cli /opt/oomox/scripted_colors/xresources/xresources-reverse
+oomox-cli -m all -d true /opt/oomox/scripted_colors/xresources/xresources-reverse
+

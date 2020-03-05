@@ -1,0 +1,2 @@
+cd ~/Music && clipit -c 2> /dev/null | awk  '{print $1}'| dmenu | xargs youtube-dl --add-metadata -xic
+

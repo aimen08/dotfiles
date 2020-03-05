@@ -1,0 +1,8 @@
+#!/bin/sh
+
+for i in 1 2 3 4 5 
+do 
+authch
+cat ~/Documents/auth.txt
+sudo openvpn ~/Documents/fr311.nordvpn.com.udp1194.ovpn
+done

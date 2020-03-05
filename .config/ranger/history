@@ -1,0 +1,23 @@
+rename Videos
+open_with vim
+set preview_images true
+eval fm.source(fm.confpath('rc.conf'))
+ set w3m_delay 0.1
+set w3m_delay 0.1
+set preview_images_method w3m
+set w3m_delay 0.02
+wq
+
+search
+rm
+open_with 
+trash
+w
+delete
+shell wallme %s
+shell 
+shell ls
+shell  %s
+shell wall %s
+find 
+find lowj

@@ -1,0 +1,2 @@
+#define gtk_theme       Adwaita-dark
+#define icon_theme      Adwaita
